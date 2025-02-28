@@ -1,13 +1,13 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #111;
+    background-color: #5c5c5c;
     color: #ddd;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #222;
+    background-color: #3e3e3e;
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -18,6 +18,7 @@ header {
     background: url('https://attachments-cdn-s.coub.com/coub_storage/coub/simple/cw_image/7921bc8602a/3f2252dfcb29bfc4726e5/1505736488_00020.jpg') center/cover;
     text-align: center;
     padding: 100px 20px;
+    box-shadow: 20px 20px 10px black;
 }
 
 nav a {
@@ -42,26 +43,37 @@ nav a {
 
 .content-section {
     display: flex;
+    flex-direction: column;
     padding: 50px;
     gap: 20px;
 }
 
 .side-quote{
     display: flex;
-    align-content:first baseline;
-    padding: 50px;
-    gap: 20px;
+    padding: 10px;
+    gap: 5px;
 }
 
 .side-image{
+    display: flex;
+    margin: auto;
     background: url('https://i.scdn.co/image/ab67656300005f1ff66c209d9b10c120147a81ad') center/cover;
     padding: 100px 100px;
+}
+
+.aquila{
+    background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/041252f3-b14e-4afe-9bf6-9e6db2cc38d6/d91enql-0f775463-ef24-4efc-9885-8dc574172e59.png/v1/fill/w_900,h_335/40k_imperial_aquila__transparent__by_fuguestock_d91enql-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MzM1IiwicGF0aCI6IlwvZlwvMDQxMjUyZjMtYjE0ZS00YWZlLTliZjYtOWU2ZGIyY2MzOGQ2XC9kOTFlbnFsLTBmNzc1NDYzLWVmMjQtNGVmYy05ODg1LThkYzU3NDE3MmU1OS5wbmciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.Aqi2Gl-o6QM-LCYcl1VGz10xFD8ItV62N1kN6nCub5c') center/cover;
+    padding: 90px 250px;
+    display: flex;
+    margin: auto;
 }
 
 .content-text, .content-quote {
     flex: 1;
     background-color: #333;
     padding: 20px;
+    box-shadow: 20px 20px 10px black;
+    margin: auto;
 }
 
 .more-info-button {
@@ -71,21 +83,30 @@ nav a {
     display: inline-block;
     margin-top: 20px;
     text-decoration: none;
+    box-shadow: 0px 0px 20px #b10000;
 }
 
 footer {
     background-color: #222;
     padding: 20px;
+    display: block;
     text-align: center;
+    width: auto;
 }
 
 .resources {
     display: block;
     margin: auto;
-    width: 50px;
+    width: 150px;
     color: #ccc;
     text-decoration: none;
+    text-shadow: 0px 0px 3px #ccc;
 }
 
-
+.right-format{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 20px;
+}
 
